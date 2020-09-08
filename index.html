@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Video-Player</title>
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" 
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Video-Player</h1>
+    <video src="videos/gone.mp4" id="media" poster="img//poster.png" class="media"></video>
+    <div class="controls">
+        <button class="btn" id="play">
+            <i class="fa fa-play"></i>
+        </button>
+        <button class="btn" id="stop">
+            <i class="fa fa-stop"></i>
+        </button>
+        <input type="range" name="rangeBar" id="rangeBar" class="rangeBar" min="0" max="100" step="1">
+        <div id="time">00::00</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
